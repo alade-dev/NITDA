@@ -21,7 +21,7 @@ const MapComponent = () => {
         }
       ).addTo(mapRef.current);
 
-      fetch("locations.json")
+      fetch("/locations.json")
         .then((response) => response.json())
         .then((data) => {
           console.log(data);
