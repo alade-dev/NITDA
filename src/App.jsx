@@ -2,7 +2,7 @@ import MapComponent from './MapComponent';
 
 function App() {
   return (
-    <div>
+    <div style={{ height: '100vh', width: '100%' }}>
       <MapComponent />
     </div>
   );
