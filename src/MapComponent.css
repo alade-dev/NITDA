@@ -97,8 +97,32 @@
 }
 
 .chat-message.ai {
-  background: #f5f5f5;
-  margin-right: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.chat-message.ai p {
+  margin: 0.5em 0;
+}
+
+.chat-message.ai ul, .chat-message.ai ol {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+}
+
+.chat-message.ai table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+}
+
+.chat-message.ai th, .chat-message.ai td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.chat-message.ai th {
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
 
 .chat-input-container {

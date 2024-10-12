@@ -1,0 +1,1738 @@
+[
+    {
+        "name": "Abubakar Tafawa Balewa University, Bauchi",
+        "yoe": 1988,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 10.3121757,
+        "lng": 9.8174704
+    },
+    {
+        "name": "Ahmadu Bello University, Zaria",
+        "yoe": 1962,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.1511678,
+        "lng": 7.654591299999999
+    },
+    {
+        "name": "Bayero University, Kano",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.9645407,
+        "lng": 8.4309113
+    },
+    {
+        "name": "Federal University Gashua, Yobe",
+        "yoe": 2013,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 12.8757765,
+        "lng": 11.0119858
+    },
+    {
+        "name": "Federal University of Petroleum Resources, Effurun",
+        "yoe": 2007,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 5.5623678,
+        "lng": 5.780024699999999
+    },
+    {
+        "name": "Federal University of Technology, Akure",
+        "yoe": 1981,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.307042000000001,
+        "lng": 5.1397549
+    },
+    {
+        "name": "Federal University of Technology, Minna",
+        "yoe": 1982,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 9.5835546,
+        "lng": 6.5463156
+    },
+    {
+        "name": "Federal University of Technology, Owerri",
+        "yoe": 1980,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 5.392690099999999,
+        "lng": 6.986148099999999
+    },
+    {
+        "name": "Federal University, Dutse, Jigawa State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.7159714,
+        "lng": 9.3556736
+    },
+    {
+        "name": "Federal University, Dutsin-Ma, Katsina",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 12.5082745,
+        "lng": 7.483684500000001
+    },
+    {
+        "name": "Federal University, Kashere, Gombe State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 10.3637795,
+        "lng": 11.1927587
+    },
+    {
+        "name": "Federal University, Lafia, Nasarawa State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 8.4787287,
+        "lng": 8.5571845
+    },
+    {
+        "name": "Federal University, Lokoja, Kogi State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.8023204,
+        "lng": 6.733343
+    },
+    {
+        "name": "Alex Ekwueme University, Ndufu-Alike, Ebonyi State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.1317758,
+        "lng": 8.141298299999999
+    },
+    {
+        "name": "Federal University, Otuoke, Bayelsa",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 4.797530099999999,
+        "lng": 6.3282699
+    },
+    {
+        "name": "Federal University, Oye-Ekiti, Ekiti State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.718986200000001,
+        "lng": 5.310950500000001
+    },
+    {
+        "name": "Federal University, Wukari, Taraba State",
+        "yoe": 2011,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.8428172,
+        "lng": 9.771962
+    },
+    {
+        "name": "Federal University, Birnin Kebbi",
+        "yoe": 2013,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 12.3321097,
+        "lng": 4.1542051
+    },
+    {
+        "name": "Federal University, Gusau Zamfara",
+        "yoe": 2013,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 12.1281003,
+        "lng": 6.7825427
+    },
+    {
+        "name": "Michael Okpara University of Agricultural Umudike",
+        "yoe": 1992,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 5.480685299999999,
+        "lng": 7.5456896
+    },
+    {
+        "name": "Modibbo Adama University of Technology, Yola",
+        "yoe": 1981,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 9.348932999999999,
+        "lng": 12.503175
+    },
+    {
+        "name": "National Open University of Nigeria, Lagos",
+        "yoe": 2002,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.5243793,
+        "lng": 3.3792057
+    },
+    {
+        "name": "Nigeria Police Academy Wudil",
+        "yoe": 2013,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.7942415,
+        "lng": 8.839032099999999
+    },
+    {
+        "name": "Nigerian Defence Academy Kaduna",
+        "yoe": 1985,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 10.503644,
+        "lng": 7.433739500000001
+    },
+    {
+        "name": "Nnamdi Azikiwe University, Awka",
+        "yoe": 1992,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.245880199999999,
+        "lng": 7.119894
+    },
+    {
+        "name": "Obafemi Awolowo University,Ile-Ife",
+        "yoe": 1962,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.5174314,
+        "lng": 4.5227636
+    },
+    {
+        "name": "University of Abuja, Gwagwalada",
+        "yoe": 1988,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 8.9527488,
+        "lng": 7.0729121
+    },
+    {
+        "name": "Federal University of Agriculture, Abeokuta",
+        "yoe": 1988,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.2297439,
+        "lng": 3.439215
+    },
+    {
+        "name": "Joseph Sarwuan Tarka University, Makurdi",
+        "yoe": 1988,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.789892399999999,
+        "lng": 8.6174474
+    },
+    {
+        "name": "University of Benin",
+        "yoe": 1970,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.3997845,
+        "lng": 5.609863
+    },
+    {
+        "name": "University of Calabar",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 4.9523386,
+        "lng": 8.3399276
+    },
+    {
+        "name": "University of Ibadan",
+        "yoe": 1948,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.3775507,
+        "lng": 3.9470625
+    },
+    {
+        "name": "University of Ilorin",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 8.4858957,
+        "lng": 4.674583
+    },
+    {
+        "name": "University of Jos",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 9.9486647,
+        "lng": 8.891098099999999
+    },
+    {
+        "name": "University of Lagos",
+        "yoe": 1962,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.515759,
+        "lng": 3.3898447
+    },
+    {
+        "name": "University of Maiduguri",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.8024227,
+        "lng": 13.1930878
+    },
+    {
+        "name": "University of Nigeria, Nsukka",
+        "yoe": 1960,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.866601999999999,
+        "lng": 7.411526299999998
+    },
+    {
+        "name": "University of Port-Harcourt",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 4.9069911,
+        "lng": 6.916194399999999
+    },
+    {
+        "name": "University of Uyo",
+        "yoe": 1991,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 5.0382498,
+        "lng": 7.9767283
+    },
+    {
+        "name": "Usumanu Danfodiyo University",
+        "yoe": 1975,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 13.1246469,
+        "lng": 5.199370399999999
+    },
+    {
+        "name": "Nigerian Maritime University Okerenkoko, Delta State",
+        "yoe": 2018,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 5.6196491,
+        "lng": 5.3735878
+    },
+    {
+        "name": "Air Force Institute of Technology, Kaduna",
+        "yoe": 2018,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 10.503644,
+        "lng": 7.433739500000001
+    },
+    {
+        "name": "Nigerian Army University Biu",
+        "yoe": 2018,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 10.6094735,
+        "lng": 12.1580786
+    },
+    {
+        "name": "Federal University of Health Technology, Otukpo Benue State",
+        "yoe": 2020,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 7.2336268,
+        "lng": 8.1461401
+    },
+    {
+        "name": "Federal University of Agriculture, Zuru, Kebbi State",
+        "yoe": 2020,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.4057975,
+        "lng": 5.239987699999999
+    },
+    {
+        "name": "Federal University of Technology, Babura, Jigawa State ",
+        "yoe": 2021,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 12.7461394,
+        "lng": 9.015404
+    },
+    {
+        "name": "Federal University of Technology, Ikot Abasi, Akwa Ibom State ",
+        "yoe": 2021,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 4.5739124,
+        "lng": 7.5788975
+    },
+    {
+        "name": "Federal University of Health Sciences, Azare, Bauchi State ",
+        "yoe": 2021,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 11.6714527,
+        "lng": 10.2193873
+    },
+    {
+        "name": "Federal University of Health Sciences, Ila Orangun, Osun State ",
+        "yoe": 2021,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 8.0178199,
+        "lng": 4.9405247
+    },
+    {
+        "name": "David Nweze Umahi Federal University of Medical Sciences, Uburu",
+        "yoe": 2022,
+        "onwership": "Federal Government",
+        "category": "University",
+        "lat": 6.046048499999999,
+        "lng": 7.772232199999999
+    },
+    {
+        "name": "Abia State University, Uturu",
+        "yoe": 1981,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.8225266,
+        "lng": 7.3940761
+    },
+    {
+        "name": "Adamawa State University Mubi",
+        "yoe": 2002,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 10.2800641,
+        "lng": 13.2773629
+    },
+    {
+        "name": "Adekunle Ajasin University, Akungba",
+        "yoe": 1999,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.482307199999999,
+        "lng": 5.7499614
+    },
+    {
+        "name": "Akwa Ibom State University, Ikot Akpaden",
+        "yoe": 2010,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 4.6214265,
+        "lng": 7.763900800000001
+    },
+    {
+        "name": "Ambrose Alli University, Ekpoma",
+        "yoe": 1980,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.7384194,
+        "lng": 6.0810714
+    },
+    {
+        "name": "Chukwuemeka Odumegwu Ojukwu University, Uli",
+        "yoe": 2000,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.7698582,
+        "lng": 6.8361258
+    },
+    {
+        "name": "Bauchi State University, Gadau",
+        "yoe": 2011,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 11.8328495,
+        "lng": 10.1661239
+    },
+    {
+        "name": "Benue State University, Makurdi",
+        "yoe": 1992,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.7284853,
+        "lng": 8.5559192
+    },
+    {
+        "name": "Yobe State University, Damaturu",
+        "yoe": 2006,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 11.7398314,
+        "lng": 11.9615367
+    },
+    {
+        "name": "Cross River State University of  Technology, Calabar",
+        "yoe": 2004,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 4.9273218,
+        "lng": 8.3333012
+    },
+    {
+        "name": "Delta State University Abraka",
+        "yoe": 1992,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.7914018,
+        "lng": 6.1046701
+    },
+    {
+        "name": "Ebonyi State University, Abakaliki",
+        "yoe": 2000,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.3851702,
+        "lng": 8.011055299999999
+    },
+    {
+        "name": "Ekiti State University",
+        "yoe": 1982,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.714086899999999,
+        "lng": 5.260115
+    },
+    {
+        "name": "Enugu State University of Science and Technology, Enugu",
+        "yoe": 1982,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.309946,
+        "lng": 7.5254846
+    },
+    {
+        "name": "Gombe State Univeristy, Gombe",
+        "yoe": 2004,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 10.3042082,
+        "lng": 11.1728365
+    },
+    {
+        "name": "Ibrahim Badamasi Babangida University, Lapai",
+        "yoe": 2005,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 9.0673817,
+        "lng": 6.5697816
+    },
+    {
+        "name": "Ignatius Ajuru University of Education,Rumuolumeni",
+        "yoe": 2010,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 4.8067901,
+        "lng": 6.934309499999999
+    },
+    {
+        "name": "Imo State University, Owerri",
+        "yoe": 1992,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.5064017,
+        "lng": 7.043530499999999
+    },
+    {
+        "name": "Sule Lamido University, Kafin Hausa, Jigawa",
+        "yoe": 2013,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 12.1495625,
+        "lng": 10.0024375
+    },
+    {
+        "name": "Kaduna State University, Kaduna",
+        "yoe": 2004,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 10.5167269,
+        "lng": 7.450519
+    },
+    {
+        "name": "Kano University of Science & Technology, Wudil",
+        "yoe": 2000,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 11.8067492,
+        "lng": 8.8615395
+    },
+    {
+        "name": "Kebbi State University of Science and Technology, Aliero",
+        "yoe": 2006,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 12.3056769,
+        "lng": 4.495032
+    },
+    {
+        "name": "Prince Abubakar Audu University Anyigba",
+        "yoe": 1999,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.4858718,
+        "lng": 7.1874049
+    },
+    {
+        "name": "Kwara State University, Ilorin",
+        "yoe": 2009,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 8.508116,
+        "lng": 4.5850653
+    },
+    {
+        "name": "Ladoke Akintola University of Technology, Ogbomoso",
+        "yoe": 1990,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 8.122749599999999,
+        "lng": 4.2435893
+    },
+    {
+        "name": "Ondo State University of Science and Technology Okitipupa",
+        "yoe": 2008,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.4537681,
+        "lng": 4.7723168
+    },
+    {
+        "name": "Rivers State University ",
+        "yoe": 1979,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 4.806206599999999,
+        "lng": 6.9864462
+    },
+    {
+        "name": "Olabisi Onabanjo University, Ago Iwoye",
+        "yoe": 1982,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.9234407,
+        "lng": 3.8364065
+    },
+    {
+        "name": "Lagos State University, Ojo",
+        "yoe": 1983,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.4663553,
+        "lng": 3.2003007
+    },
+    {
+        "name": "Niger Delta University Yenagoa",
+        "yoe": 2000,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 4.951446799999999,
+        "lng": 6.3491975
+    },
+    {
+        "name": "Nasarawa State University Keffi",
+        "yoe": 2002,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 8.8427116,
+        "lng": 7.9071186
+    },
+    {
+        "name": "Plateau State University Bokkos",
+        "yoe": 2005,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 9.3712558,
+        "lng": 8.956833
+    },
+    {
+        "name": "Tai Solarin University of Education Ijebu Ode",
+        "yoe": 2005,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.792877000000001,
+        "lng": 3.9303632
+    },
+    {
+        "name": "Umar Musa Yar' Adua University Katsina",
+        "yoe": 2006,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 12.892365,
+        "lng": 7.5855215
+    },
+    {
+        "name": "Osun State University Osogbo",
+        "yoe": 2006,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.7616469,
+        "lng": 4.6012166
+    },
+    {
+        "name": "Taraba State University, Jalingo",
+        "yoe": 2008,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 8.9002768,
+        "lng": 11.3168132
+    },
+    {
+        "name": "Sokoto State University",
+        "yoe": 2009,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 12.94232,
+        "lng": 5.190537099999999
+    },
+    {
+        "name": "Yusuf Maitama Sule University Kano",
+        "yoe": 2012,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 12.0043254,
+        "lng": 8.483346
+    },
+    {
+        "name": "First Technical University Ibadan",
+        "yoe": 2012,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.2392549,
+        "lng": 3.8212878
+    },
+    {
+        "name": "Ondo State University of Medical Sciences",
+        "yoe": 2015,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.2342425,
+        "lng": 5.241086399999999
+    },
+    {
+        "name": "Edo State University Uzairue",
+        "yoe": 2016,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.135626299999999,
+        "lng": 6.3078141
+    },
+    {
+        "name": "Kingsley Ozumba Mbadiwe University Ogboko, Imo State",
+        "yoe": 2016,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.8305022,
+        "lng": 7.0803974
+    },
+    {
+        "name": "University of Africa Toru Orua, Bayelsa State",
+        "yoe": 2016,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.0981415,
+        "lng": 6.066773299999999
+    },
+    {
+        "name": "Bornu State University, Maiduguri",
+        "yoe": 2016,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 11.8479967,
+        "lng": 13.0040358
+    },
+    {
+        "name": "Moshood Abiola University of Science and Technology Abeokuta",
+        "yoe": 2017,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.1010567,
+        "lng": 3.3296175
+    },
+    {
+        "name": "Gombe State University of Science and Technology",
+        "yoe": 2017,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 10.0289051,
+        "lng": 11.2113219
+    },
+    {
+        "name": "Bayelsa Medical University",
+        "yoe": 2019,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 4.932466499999999,
+        "lng": 6.2804661
+    },
+    {
+        "name": "University of Agriculture and Environmental Sciences Umuagwo, Imo State",
+        "yoe": 2019,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.2993125,
+        "lng": 6.952437499999999
+    },
+    {
+        "name": "Confluence University of Science and Technology Osara, Kogi",
+        "yoe": 2020,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.680515999999999,
+        "lng": 6.422034699999999
+    },
+    {
+        "name": "University of Delta, Agbor",
+        "yoe": 2021,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.2530078,
+        "lng": 6.2057764
+    },
+    {
+        "name": "Delta University of Science and Technology, Ozoro",
+        "yoe": 2021,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 5.556178999999999,
+        "lng": 6.247196
+    },
+    {
+        "name": "Dennis Osadebe University, Asaba",
+        "yoe": 2021,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.2524657,
+        "lng": 6.7033312
+    },
+    {
+        "name": "Bamidele Olumilua University of Science and Technology Ikere, Ekiti State",
+        "yoe": 2020,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.496295,
+        "lng": 5.1713035
+    },
+    {
+        "name": "Lagos State University of Education, Ijanikin",
+        "yoe": 2022,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.5001319,
+        "lng": 3.1108612
+    },
+    {
+        "name": "Lagos State University of Science and Technology Ikorodu",
+        "yoe": 1970,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.64638,
+        "lng": 3.517462
+    },
+    {
+        "name": "Shehu Shagari University of Education, Sokoto",
+        "yoe": 2022,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 13.0058731,
+        "lng": 5.2475518
+    },
+    {
+        "name": "Enugu State University of Medical and Applied Sciences, Igbo-Eno",
+        "yoe": 2022,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 6.8765534,
+        "lng": 7.464292599999999
+    },
+    {
+        "name": "University of Ilesa, Osun State",
+        "yoe": 2022,
+        "onwership": "State Government",
+        "category": "University",
+        "lat": 7.6048567,
+        "lng": 4.7020516
+    },
+    {
+        "name": "Achievers University, Owo",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.1688239,
+        "lng": 5.5891717
+    },
+    {
+        "name": "Adeleke University, Ede",
+        "yoe": 2011,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.760331900000001,
+        "lng": 4.4615469
+    },
+    {
+        "name": "Afe Babalola University, Ado-Ekiti - Ekiti State",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.6012033,
+        "lng": 5.3017965
+    },
+    {
+        "name": "African University of Science & Technology, Abuja",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.000923,
+        "lng": 7.422000199999999
+    },
+    {
+        "name": "Ajayi Crowther University, Ibadan",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.3775355,
+        "lng": 3.9470396
+    },
+    {
+        "name": "Al-Hikmah University, Ilorin",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.4833211,
+        "lng": 4.505634400000001
+    },
+    {
+        "name": "Al-Qalam University, Katsina",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 12.9416272,
+        "lng": 7.601254599999999
+    },
+    {
+        "name": "American University of Nigeria, Yola",
+        "yoe": 2003,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.1938555,
+        "lng": 12.5001109
+    },
+    {
+        "name": "Augustine University",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.659806199999999,
+        "lng": 4.0072468
+    },
+    {
+        "name": "Babcock University,Ilishan-Remo",
+        "yoe": 1999,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.8920758,
+        "lng": 3.7181452
+    },
+    {
+        "name": "Baze University",
+        "yoe": 2011,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.0073052,
+        "lng": 7.4059828
+    },
+    {
+        "name": "Bells University of Technology, Otta",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.6858742,
+        "lng": 3.171101
+    },
+    {
+        "name": "Benson Idahosa University, Benin City",
+        "yoe": 2002,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.3350557,
+        "lng": 5.6044968
+    },
+    {
+        "name": "Bingham University, New Karu",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.956487599999999,
+        "lng": 7.6996436
+    },
+    {
+        "name": "Bowen University, Iwo",
+        "yoe": 2001,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.640130300000001,
+        "lng": 4.176974899999999
+    },
+    {
+        "name": "Caleb University, Lagos",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.6673562,
+        "lng": 3.6408419
+    },
+    {
+        "name": "Caritas University, Enugu",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.5035852,
+        "lng": 7.5674874
+    },
+    {
+        "name": "Chrisland University",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.1418488,
+        "lng": 3.3992155
+    },
+    {
+        "name": "Covenant University Ota",
+        "yoe": 2002,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.672644699999999,
+        "lng": 3.161213
+    },
+    {
+        "name": "Crawford University Igbesa",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.596665799999999,
+        "lng": 3.0757671
+    },
+    {
+        "name": "Edwin Clark University, Kaigbodo",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.3790818,
+        "lng": 5.8982836
+    },
+    {
+        "name": "Elizade University, Ilara-Mokin",
+        "yoe": 2012,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.3671325,
+        "lng": 5.1066997
+    },
+    {
+        "name": "Evangel University, Akaeze",
+        "yoe": 2012,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.4104762,
+        "lng": 7.8646626
+    },
+    {
+        "name": "Fountain Unveristy, Oshogbo",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.743664600000001,
+        "lng": 4.5459929
+    },
+    {
+        "name": "Godfrey Okoye University, Ugwuomu-Nike - Enugu State",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.468531899999999,
+        "lng": 7.526468899999999
+    },
+    {
+        "name": "Gregory University, Uturu",
+        "yoe": 2012,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.852057299999999,
+        "lng": 7.4267912
+    },
+    {
+        "name": "Hallmark University, Ijebi Itele, Ogun",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.759385099999999,
+        "lng": 4.1092802
+    },
+    {
+        "name": "Hezekiah University, Umudi",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.759968799999999,
+        "lng": 7.1416337
+    },
+    {
+        "name": "Igbinedion University Okada",
+        "yoe": 1999,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.7330963,
+        "lng": 5.3913125
+    },
+    {
+        "name": "Joseph Ayo Babalola University, Ikeji-Arakeji",
+        "yoe": 2006,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.416537600000001,
+        "lng": 4.9650992
+    },
+    {
+        "name": "Kings University, Ode Omu",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.564752899999999,
+        "lng": 4.4075556
+    },
+    {
+        "name": "Kwararafa University, Wukari",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.877352500000001,
+        "lng": 9.7790188
+    },
+    {
+        "name": "Landmark University, Omu-Aran.",
+        "yoe": 2011,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1226263,
+        "lng": 5.082785599999999
+    },
+    {
+        "name": "Lead City University, Ibadan",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.3267894,
+        "lng": 3.8765912
+    },
+    {
+        "name": "Madonna University, Okija",
+        "yoe": 1999,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.8993699,
+        "lng": 6.8354349
+    },
+    {
+        "name": "Mcpherson University, Seriki Sotayo, Ajebo",
+        "yoe": 2012,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.3171807,
+        "lng": 3.4544536
+    },
+    {
+        "name": "Micheal & Cecilia Ibru University",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.5376701,
+        "lng": 6.0608882
+    },
+    {
+        "name": "Mountain Top University",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.729194199999999,
+        "lng": 3.4126303
+    },
+    {
+        "name": "Nile University of Nigeria, Abuja",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.0177471,
+        "lng": 7.4016486
+    },
+    {
+        "name": "Novena University, Ogume",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.752025799999999,
+        "lng": 6.3161945
+    },
+    {
+        "name": "Obong University, Obong Ntak",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 4.9455066,
+        "lng": 7.567201299999999
+    },
+    {
+        "name": "Oduduwa University, Ipetumodu - Osun State",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.5007514,
+        "lng": 4.452683
+    },
+    {
+        "name": "Pan-Atlantic University, Lagos",
+        "yoe": 2002,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.5243793,
+        "lng": 3.3792057
+    },
+    {
+        "name": "Paul University, Awka - Anambra State",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.1978816,
+        "lng": 7.0646039
+    },
+    {
+        "name": "Redeemer's University, Ede",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.680595500000001,
+        "lng": 4.4583708
+    },
+    {
+        "name": "Renaissance University, Enugu",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.2788372,
+        "lng": 7.562724200000001
+    },
+    {
+        "name": "Rhema University, Obeama-Asa - Rivers State",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 4.8513148,
+        "lng": 7.195076100000001
+    },
+    {
+        "name": "Ritman University, Ikot Ekpene, Akwa Ibom",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.1971457,
+        "lng": 7.699875999999999
+    },
+    {
+        "name": "Salem University, Lokoja",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.6957815,
+        "lng": 6.7227657
+    },
+    {
+        "name": "Samuel Adegboyega University, Ogwa.",
+        "yoe": 2011,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.5143786,
+        "lng": 6.198106399999999
+    },
+    {
+        "name": "Summit University, Offa",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1457604,
+        "lng": 4.7010307
+    },
+    {
+        "name": "Tansian University, Umunya",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.200525499999999,
+        "lng": 6.891706699999999
+    },
+    {
+        "name": "University of Mkar, Mkar",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.081999,
+        "lng": 8.675277
+    },
+    {
+        "name": "Veritas University, Abuja",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.291504,
+        "lng": 7.4276396
+    },
+    {
+        "name": "Wellspring University, Evbuobanosa - Edo State",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.2809423,
+        "lng": 5.585458699999999
+    },
+    {
+        "name": "Wesley University Ondo",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.1165711,
+        "lng": 4.8051949
+    },
+    {
+        "name": "Western Delta University, Oghara Delta State",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.99783,
+        "lng": 5.6887931
+    },
+    {
+        "name": "Christopher University Mowe                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.8298361,
+        "lng": 3.4756138
+    },
+    {
+        "name": "Kola Daisi University Ibadan, Oyo State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.625264800000001,
+        "lng": 3.9112692
+    },
+    {
+        "name": "Anchor University Ayobo Lagos State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.6039714,
+        "lng": 3.2419436
+    },
+    {
+        "name": "Dominican University Ibadan Oyo State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.4331064,
+        "lng": 3.9021725
+    },
+    {
+        "name": "Legacy University, Okija Anambra State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.888855,
+        "lng": 6.845694399999999
+    },
+    {
+        "name": "Arthur Javis University Akpoyubo Cross river State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 4.9393278,
+        "lng": 8.4556265
+    },
+    {
+        "name": "Crown Hill University Eiyenkorin, Kwara State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.9668961,
+        "lng": 4.3874051
+    },
+    {
+        "name": "Coal City University Enugu State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.4622891,
+        "lng": 7.5844542
+    },
+    {
+        "name": "Clifford University Owerrinta Abia State",
+        "yoe": 2016,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.2954511,
+        "lng": 7.3150492
+    },
+    {
+        "name": "Admiralty University of Nigeria, Ibusa Delta State",
+        "yoe": 2017,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.180427799999999,
+        "lng": 6.626403400000001
+    },
+    {
+        "name": "Spiritan University, Nneochi Abia State",
+        "yoe": 2017,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.9512192,
+        "lng": 7.3383216
+    },
+    {
+        "name": "Precious Cornerstone University, Oyo",
+        "yoe": 2017,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.3867854,
+        "lng": 3.9489001
+    },
+    {
+        "name": "PAMO University of Medical Sciences, Portharcourt",
+        "yoe": 2017,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 4.8615149,
+        "lng": 7.1027017
+    },
+    {
+        "name": "Atiba University Oyo",
+        "yoe": 2017,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.8517269,
+        "lng": 3.914840799999999
+    },
+    {
+        "name": "Eko University of Medical and Health Sciences Ijanikin, Lagos",
+        "yoe": 2017,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.491837899999999,
+        "lng": 3.1221949
+    },
+    {
+        "name": "Skyline University, Kano",
+        "yoe": 2018,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.9855245,
+        "lng": 8.5331086
+    },
+    {
+        "name": "Greenfield University, Kaduna",
+        "yoe": 2019,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 10.503644,
+        "lng": 7.433739500000001
+    },
+    {
+        "name": "Dominion University Ibadan, Oyo State",
+        "yoe": 2019,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.4331064,
+        "lng": 3.9021725
+    },
+    {
+        "name": "Trinity University Ogun State",
+        "yoe": 2019,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.997974699999999,
+        "lng": 3.4737378
+    },
+    {
+        "name": "Westland University Iwo, Osun State",
+        "yoe": 2019,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 7.693775800000001,
+        "lng": 4.2015779
+    },
+    {
+        "name": "Topfaith University, Mkpatak, Akwa Ibom State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.0511612,
+        "lng": 7.6732631
+    },
+    {
+        "name": "Thomas Adewumi University, Oko-Irese, Kwara State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1491945,
+        "lng": 5.190555
+    },
+    {
+        "name": "Maranathan University, Mgbidi, Imo State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.7360262,
+        "lng": 6.8833562
+    },
+    {
+        "name": "Ave Maria University, Piyanko, Nasarawa State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.4997908,
+        "lng": 8.1996937
+    },
+    {
+        "name": "Al-Istiqama University, Sumaila, Kano State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.5440073,
+        "lng": 8.9552789
+    },
+    {
+        "name": "Mudiame University, Irrua, Edo State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.7289875,
+        "lng": 6.2125781
+    },
+    {
+        "name": "Havilla University, Nde-Ikom, Cross River State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.9616504,
+        "lng": 8.7205877
+    },
+    {
+        "name": "Claretian University of Nigeria, Nekede, Imo State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.4481015,
+        "lng": 7.0195311
+    },
+    {
+        "name": "NOK University, Kachia, Kaduna State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.8687296,
+        "lng": 7.976400099999999
+    },
+    {
+        "name": "Karl-Kumm University, Vom, Plateau State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.731089800000001,
+        "lng": 8.7935611
+    },
+    {
+        "name": "James Hope University, Lagos, Lagos State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.4356616,
+        "lng": 3.5268242
+    },
+    {
+        "name": "Maryam Abacha American University of Nigeria, Kano State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.9782328,
+        "lng": 8.570058699999999
+    },
+    {
+        "name": "Capital City University, Kano State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.9926347,
+        "lng": 8.5544802
+    },
+    {
+        "name": "Ahman Pategi University, Kwara State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.7159323,
+        "lng": 5.785848700000001
+    },
+    {
+        "name": "University of Offa, Kwara State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1393408,
+        "lng": 4.7174062
+    },
+    {
+        "name": "Mewar International University, Masaka, Nasarawa State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.9872899,
+        "lng": 7.672596400000001
+    },
+    {
+        "name": "Edusoko University, Bida, Niger State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.077373,
+        "lng": 6.027205899999999
+    },
+    {
+        "name": "Philomath University, Kuje, Abuja",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.8914183,
+        "lng": 7.262227999999999
+    },
+    {
+        "name": "Khadija University, Majia, Jigawa State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 12.3071184,
+        "lng": 9.4500318
+    },
+    {
+        "name": "Anan University, Kwall, Plateau State",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.7763011,
+        "lng": 8.7139747
+    },
+    {
+        "name": "PEN Resource University, Gombe",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 10.2881397,
+        "lng": 11.0537022
+    },
+    {
+        "name": "Al-Ansar University, Maiduguri, Borno",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.8672709,
+        "lng": 13.125358
+    },
+    {
+        "name": "Margaret Lawrence University, Umunede, Delta State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.250836,
+        "lng": 6.3605082
+    },
+    {
+        "name": "Khalifa Isiyaku Rabiu University, Kano",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.9834036,
+        "lng": 8.506440699999999
+    },
+    {
+        "name": "Sports University, Idumuje, Ugboko, Delta State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 6.3654227,
+        "lng": 6.405073799999999
+    },
+    {
+        "name": "Baba Ahmed University, Kano State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 11.9711323,
+        "lng": 8.5182188
+    },
+    {
+        "name": "Saisa University of Medical Sciences and Technology, Sokoto State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 13.006585,
+        "lng": 5.2509336
+    },
+    {
+        "name": "Nigerian British University, Asa, Abia State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 4.9202778,
+        "lng": 7.2330519
+    },
+    {
+        "name": "Peter University, Achina-Onneh Anambra State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 5.995512499999999,
+        "lng": 7.142734399999999
+    },
+    {
+        "name": "Newgate University, MInna, Niger State.",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 9.5803956,
+        "lng": 6.5020406
+    },
+    {
+        "name": "European University of Nigeria, Duboyi, FCT",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.984278699999999,
+        "lng": 7.451050200000001
+    },
+    {
+        "name": "NorthWest University Sokoto State",
+        "yoe": 2022,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 13.0453081,
+        "lng": 5.1930588
+    }
+]

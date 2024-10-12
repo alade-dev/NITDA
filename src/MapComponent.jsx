@@ -1,11 +1,14 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
-import SearchBar from './SearchBar';
-import './MapComponent.css';
+import Markdown from "markdown-to-jsx";
+// import ReactMarkdown from "react-markdown";
+import SearchBar from "./SearchBar";
+import "./MapComponent.css";
 
 const SidePanel = ({ institution, onClose, visible }) => {
-  const [chatInput, setChatInput] = useState('');
+  const [chatInput, setChatInput] = useState("");
   const [chatMessages, setChatMessages] = useState([]);
   const [liveDetails, setLiveDetails] = useState(null);
 
@@ -17,7 +20,11 @@ const SidePanel = ({ institution, onClose, visible }) => {
 
   const fetchLiveDetails = async (instName) => {
     try {
-      const response = await fetch(`https://nitda.onrender.com/live_details?inst_name=${encodeURIComponent(instName)}`);      
+      const response = await fetch(
+        `https://nitda.onrender.com/live_details?inst_name=${encodeURIComponent(
+          instName
+        )}`
+      );
       const data = await response.json();
       setLiveDetails(data.ai_response);
     } catch (error) {
@@ -27,23 +34,50 @@ const SidePanel = ({ institution, onClose, visible }) => {
 
   const handleSendMessage = async () => {
     if (chatInput.trim()) {
-      setChatMessages([...chatMessages, { type: 'user', text: chatInput }]);
+      setChatMessages([...chatMessages, { type: "user", text: chatInput }]);
       try {
-        const response = await fetch(`https://nitda.onrender.com/chatbot?query=${encodeURIComponent(chatInput)}&inst_name=${encodeURIComponent(institution.name)}`);
+        const response = await fetch(
+          `https://nitda.onrender.com/chatbot?query=${encodeURIComponent(
+            chatInput
+          )}&inst_name=${encodeURIComponent(institution.name)}`
+        );
         const data = await response.json();
-        setChatMessages(prev => [...prev, {
-          type: 'ai',
-          text: data.ai_response
-        }]);
+        setChatMessages((prev) => [
+          ...prev,
+          {
+            type: "ai",
+            text: data.ai_response,
+          },
+        ]);
       } catch (error) {
         console.error("Error fetching chatbot response:", error);
-        setChatMessages(prev => [...prev, {
-          type: 'ai',
-          text: "Sorry, I couldn't process your request at the moment."
-        }]);
+        setChatMessages((prev) => [
+          ...prev,
+          {
+            type: "ai",
+            text: "Sorry, I couldn't process your request at the moment.",
+          },
+        ]);
       }
-      setChatInput('');
+      setChatInput("");
     }
+  };
+
+  const CodeBlock = ({ children, className }) => {
+    const language = className ? className.replace(/language-/, "") : "";
+    return (
+      <pre>
+        <code className={className}>{children}</code>
+      </pre>
+    );
+  };
+
+  const markdownOptions = {
+    overrides: {
+      code: {
+        component: CodeBlock,
+      },
+    },
   };
 
   if (!visible) return null;
@@ -52,34 +86,50 @@ const SidePanel = ({ institution, onClose, visible }) => {
     <div className="side-panel">
       <div className="side-panel-header">
         <h2>Institution Details</h2>
-        <button onClick={onClose} className="close-button">×</button>
+        <button onClick={onClose} className="close-button">
+          ×
+        </button>
       </div>
-      
+
       <div className="location-details">
         <h3>{institution.name}</h3>
         <div className="details-list">
-          <p><strong>Year of Establishment:</strong> {institution.yoe}</p>
-          <p><strong>Ownership:</strong> {institution.onwership}</p>
-          <p><strong>Category:</strong> {institution.category}</p>
+          <p>
+            <strong>Year of Establishment:</strong> {institution.yoe}
+          </p>
+          <p>
+            <strong>Ownership:</strong> {institution.onwership}
+          </p>
+          <p>
+            <strong>Category:</strong> {institution.category}
+          </p>
           {liveDetails && (
             <>
-              <p><strong>In Session:</strong> {liveDetails.in_session ? 'Yes' : 'No'}</p>
-              <p><strong>Admission Ongoing:</strong> {liveDetails.admission_ongoing ? 'Yes' : 'No'}</p>
-              <p><strong>Vice Chancellor:</strong> {liveDetails.vice_chancellor}</p>
+              <p>
+                <strong>In Session:</strong>{" "}
+                {liveDetails.in_session ? "Yes" : "No"}
+              </p>
+              <p>
+                <strong>Admission Ongoing:</strong>{" "}
+                {liveDetails.admission_ongoing ? "Yes" : "No"}
+              </p>
+              <p>
+                <strong>Vice Chancellor:</strong> {liveDetails.vice_chancellor}
+              </p>
             </>
           )}
         </div>
-        {institution.image_url && (
-          <img src={institution.image_url} alt={institution.name} className="institution-image" />
-        )}
       </div>
-
       <div className="chat-section">
         <h3>Chat with AI Assistant</h3>
         <div className="chat-messages">
           {chatMessages.map((message, index) => (
             <div key={index} className={`chat-message ${message.type}`}>
-              {message.text}
+              {message.type === "ai" ? (
+                <Markdown options={markdownOptions}>{message.text}</Markdown>
+              ) : (
+                message.text
+              )}
             </div>
           ))}
         </div>
@@ -90,7 +140,7 @@ const SidePanel = ({ institution, onClose, visible }) => {
             onChange={(e) => setChatInput(e.target.value)}
             placeholder="Ask our Chatbot about this institution..."
             className="chat-input"
-            onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
+            onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}
           />
           <button onClick={handleSendMessage} className="send-button">
             Send
@@ -111,9 +161,9 @@ const MapComponent = () => {
   useEffect(() => {
     if (!mapRef.current) {
       mapRef.current = L.map("map", {
-        center: [8.4858957, 4.674583], // Centered on University of Ilorin
-        zoom: 19,
-        maxZoom: 19
+        center: [8.4833211, 4.505634400000001], // Centered on Al-Hikmah University, Ilorin
+        zoom: 16,
+        maxZoom: 19,
       });
 
       L.tileLayer(
@@ -127,7 +177,7 @@ const MapComponent = () => {
       ).addTo(mapRef.current);
 
       // Load the new JSON file
-      fetch("kwara_inst.json")
+      fetch("nigerian_uni.json")
         .then((response) => response.json())
         .then((data) => {
           setInstitutions(data);
@@ -147,38 +197,44 @@ const MapComponent = () => {
   }, []);
 
   const addMarker = (institution) => {
-    const marker = L.marker([institution.lat, institution.lng]).addTo(mapRef.current);
-    
+    const marker = L.marker([institution.lat, institution.lng]).addTo(
+      mapRef.current
+    );
+
     marker.bindPopup(
       `<b>${institution.name}</b><br>
       📍${institution.category}<br>
       <button class="view-details-btn">View Details</button>`
     );
 
-    marker.on('popupopen', () => {
-      const button = document.querySelector('.view-details-btn');
+    marker.on("popupopen", () => {
+      const button = document.querySelector(".view-details-btn");
       if (button) {
-        button.addEventListener('click', () => {
+        button.addEventListener("click", () => {
           setSelectedInstitution(institution);
           setShowSidePanel(true);
         });
       }
     });
 
-    markersRef.current[institution.category] = markersRef.current[institution.category] || [];
+    markersRef.current[institution.category] =
+      markersRef.current[institution.category] || [];
     markersRef.current[institution.category].push(marker);
   };
 
   const handleSearch = (searchTerm) => {
     const lcSearchTerm = searchTerm.toLowerCase();
     const filteredInstitutions = institutions.filter(
-      (institution) => institution.name.toLowerCase().includes(lcSearchTerm) ||
-                       institution.category.toLowerCase().includes(lcSearchTerm)
+      (institution) =>
+        institution.name.toLowerCase().includes(lcSearchTerm) ||
+        institution.category.toLowerCase().includes(lcSearchTerm)
     );
 
-    Object.values(markersRef.current).flat().forEach((marker) => {
-      mapRef.current.removeLayer(marker);
-    });
+    Object.values(markersRef.current)
+      .flat()
+      .forEach((marker) => {
+        mapRef.current.removeLayer(marker);
+      });
 
     filteredInstitutions.forEach((institution) => {
       addMarker(institution);
