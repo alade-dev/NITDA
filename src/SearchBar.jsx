@@ -18,7 +18,7 @@ const SearchBar = ({ onSearch }) => {
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Search By Local Government Area"
+          placeholder="Search By Institution Name"
           className="search-input"
         />
         <button type="submit" className="search-button">
