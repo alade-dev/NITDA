@@ -4,21 +4,44 @@ import L from "leaflet";
 import SearchBar from './SearchBar';
 import './MapComponent.css';
 
-const SidePanel = ({ location, onClose, visible }) => {
+const SidePanel = ({ institution, onClose, visible }) => {
   const [chatInput, setChatInput] = useState('');
   const [chatMessages, setChatMessages] = useState([]);
+  const [liveDetails, setLiveDetails] = useState(null);
 
-  const handleSendMessage = () => {
+  useEffect(() => {
+    if (institution) {
+      fetchLiveDetails(institution.name);
+    }
+  }, [institution]);
+
+  const fetchLiveDetails = async (instName) => {
+    try {
+      const response = await fetch(`https://nitda.onrender.com/live_details?inst_name=${encodeURIComponent(instName)}`);      
+      const data = await response.json();
+      setLiveDetails(data.ai_response);
+    } catch (error) {
+      console.error("Error fetching live details:", error);
+    }
+  };
+
+  const handleSendMessage = async () => {
     if (chatInput.trim()) {
-      // Add user message
       setChatMessages([...chatMessages, { type: 'user', text: chatInput }]);
-      // Simulate AI response - replace with actual AI integration
-      setTimeout(() => {
+      try {
+        const response = await fetch(`https://nitda.onrender.com/chatbot?query=${encodeURIComponent(chatInput)}&inst_name=${encodeURIComponent(institution.name)}`);
+        const data = await response.json();
         setChatMessages(prev => [...prev, {
           type: 'ai',
-          text: `Here's some information about ${location.name}...`
+          text: data.ai_response
         }]);
-      }, 500);
+      } catch (error) {
+        console.error("Error fetching chatbot response:", error);
+        setChatMessages(prev => [...prev, {
+          type: 'ai',
+          text: "Sorry, I couldn't process your request at the moment."
+        }]);
+      }
       setChatInput('');
     }
   };
@@ -33,14 +56,22 @@ const SidePanel = ({ location, onClose, visible }) => {
       </div>
       
       <div className="location-details">
-        <h3>{location.name}</h3>
+        <h3>{institution.name}</h3>
         <div className="details-list">
-          <p><strong>Address:</strong> {location.address}</p>
-          <p><strong>Category:</strong> {location.category}</p>
-          <p><strong>LGA:</strong> {location.lga}</p>
-          <p><strong>Ownership:</strong> {location.ownership}</p>
-          <p><strong>School Level:</strong> {location.school_level}</p>
+          <p><strong>Year of Establishment:</strong> {institution.yoe}</p>
+          <p><strong>Ownership:</strong> {institution.onwership}</p>
+          <p><strong>Category:</strong> {institution.category}</p>
+          {liveDetails && (
+            <>
+              <p><strong>In Session:</strong> {liveDetails.in_session ? 'Yes' : 'No'}</p>
+              <p><strong>Admission Ongoing:</strong> {liveDetails.admission_ongoing ? 'Yes' : 'No'}</p>
+              <p><strong>Vice Chancellor:</strong> {liveDetails.vice_chancellor}</p>
+            </>
+          )}
         </div>
+        {institution.image_url && (
+          <img src={institution.image_url} alt={institution.name} className="institution-image" />
+        )}
       </div>
 
       <div className="chat-section">
@@ -73,15 +104,15 @@ const SidePanel = ({ location, onClose, visible }) => {
 const MapComponent = () => {
   const mapRef = useRef(null);
   const markersRef = useRef({});
-  const [locations, setLocations] = useState([]);
-  const [selectedLocation, setSelectedLocation] = useState(null);
+  const [institutions, setInstitutions] = useState([]);
+  const [selectedInstitution, setSelectedInstitution] = useState(null);
   const [showSidePanel, setShowSidePanel] = useState(false);
 
   useEffect(() => {
     if (!mapRef.current) {
       mapRef.current = L.map("map", {
-        center: [8.1648098, 4.7523337],
-        zoom: 20,
+        center: [8.4858957, 4.674583], // Centered on University of Ilorin
+        zoom: 19,
         maxZoom: 19
       });
 
@@ -91,16 +122,17 @@ const MapComponent = () => {
         }`,
         {
           maxZoom: 19,
-          attribution: "📍 Basic Schools in Kwara state NITDA",
+          attribution: "📍 Tertiary Institutions in Kwara State",
         }
       ).addTo(mapRef.current);
 
-      fetch("locations.json")
+      // Load the new JSON file
+      fetch("kwara_inst.json")
         .then((response) => response.json())
         .then((data) => {
-          setLocations(data);
-          data.forEach((location) => {
-            addMarker(location);
+          setInstitutions(data);
+          data.forEach((institution) => {
+            addMarker(institution);
           });
         })
         .catch((error) => console.error("Error loading JSON:", error));
@@ -114,47 +146,47 @@ const MapComponent = () => {
     };
   }, []);
 
-  const addMarker = (location) => {
-    const marker = L.marker([location.latitude, location.longitude]).addTo(mapRef.current);
+  const addMarker = (institution) => {
+    const marker = L.marker([institution.lat, institution.lng]).addTo(mapRef.current);
     
     marker.bindPopup(
-      `<b>${location.name}</b><br>
-      📍${location.address}<br>
+      `<b>${institution.name}</b><br>
+      📍${institution.category}<br>
       <button class="view-details-btn">View Details</button>`
     );
 
     marker.on('popupopen', () => {
-      // Find and add click handler to the button after popup is opened
       const button = document.querySelector('.view-details-btn');
       if (button) {
         button.addEventListener('click', () => {
-          setSelectedLocation(location);
+          setSelectedInstitution(institution);
           setShowSidePanel(true);
         });
       }
     });
 
-    markersRef.current[location.lga] = markersRef.current[location.lga] || [];
-    markersRef.current[location.lga].push(marker);
+    markersRef.current[institution.category] = markersRef.current[institution.category] || [];
+    markersRef.current[institution.category].push(marker);
   };
 
   const handleSearch = (searchTerm) => {
     const lcSearchTerm = searchTerm.toLowerCase();
-    const filteredLocations = locations.filter(
-      (location) => location.name.toLowerCase().includes(lcSearchTerm)
+    const filteredInstitutions = institutions.filter(
+      (institution) => institution.name.toLowerCase().includes(lcSearchTerm) ||
+                       institution.category.toLowerCase().includes(lcSearchTerm)
     );
 
     Object.values(markersRef.current).flat().forEach((marker) => {
       mapRef.current.removeLayer(marker);
     });
 
-    filteredLocations.forEach((location) => {
-      addMarker(location);
+    filteredInstitutions.forEach((institution) => {
+      addMarker(institution);
     });
 
-    if (filteredLocations.length > 0) {
+    if (filteredInstitutions.length > 0) {
       const group = L.featureGroup(
-        filteredLocations.map((loc) => L.marker([loc.latitude, loc.longitude]))
+        filteredInstitutions.map((inst) => L.marker([inst.lat, inst.lng]))
       );
       mapRef.current.fitBounds(group.getBounds(), { maxZoom: 19 });
     }
@@ -168,9 +200,9 @@ const MapComponent = () => {
     <div className="map-container">
       <SearchBar onSearch={handleSearch} />
       <div id="map" className="map"></div>
-      {selectedLocation && (
+      {selectedInstitution && (
         <SidePanel
-          location={selectedLocation}
+          institution={selectedInstitution}
           onClose={() => setShowSidePanel(false)}
           visible={showSidePanel}
         />

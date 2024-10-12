@@ -1,0 +1,170 @@
+[
+    {
+        "name": "University of Ilorin",
+        "yoe": 1975,
+        "onwership": "Federal",
+        "category": "University",
+        "lat": 8.4858957,
+        "lng": 4.674583
+    },
+    {
+        "name": "Kwara State Polytechnic, Ilorin",
+        "yoe": 1973,
+        "onwership": "State",
+        "category": "Polytechnic",
+        "lat": 8.5433439,
+        "lng": 4.634256
+    },
+    {
+        "name": "Graceland Polytechnic",
+        "yoe": 2007,
+        "onwership": "Private",
+        "category": "Polytechnic",
+        "lat": 8.1278167,
+        "lng": 4.6868112
+    },
+    {
+        "name": "Lens Polytechnic",
+        "yoe": 2009,
+        "onwership": "Private",
+        "category": "Polytechnic",
+        "lat": 8.1317319,
+        "lng": 4.680401499999999
+    },
+    {
+        "name": "Al-Hikmah University, Ilorin",
+        "yoe": 2005,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.4833211,
+        "lng": 4.505634400000001
+    },
+    {
+        "name": "Landmark University, Omu-Aran",
+        "yoe": 2011,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1226263,
+        "lng": 5.082785599999999
+    },
+    {
+        "name": "Summit University",
+        "yoe": 2015,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 44.9512761,
+        "lng": -93.1263555
+    },
+    {
+        "name": "Thomas Adewumi University, Oko-Irese",
+        "yoe": 2019,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1491945,
+        "lng": 5.190555
+    },
+    {
+        "name": "Ahman Pategi University",
+        "yoe": 2021,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.7159323,
+        "lng": 5.785848700000001
+    },
+    {
+        "name": "University of Offa",
+        "yoe": 2010,
+        "onwership": "Private",
+        "category": "University",
+        "lat": 8.1393408,
+        "lng": 4.7174062
+    },
+    {
+        "name": "Kinsey College of Education, Ilorin",
+        "yoe": 2002,
+        "onwership": "Private",
+        "category": "College of Education",
+        "lat": 8.462781399999999,
+        "lng": 4.592096499999999
+    },
+    {
+        "name": "ECWA College of Education, Igbaja",
+        "yoe": 1968,
+        "onwership": "Private",
+        "category": "College of Education",
+        "lat": 8.3829019,
+        "lng": 4.877996899999999
+    },
+    {
+        "name": "PAN African College of Education, Offa",
+        "yoe": 2006,
+        "onwership": "Private",
+        "category": "College of Education",
+        "lat": 8.1393408,
+        "lng": 4.7174062
+    },
+    {
+        "name": "College of Education, Ilemona",
+        "yoe": 1985,
+        "onwership": "State",
+        "category": "College of Education",
+        "lat": 8.1210484,
+        "lng": 4.6598128
+    },
+    {
+        "name": "Moje College of Education, Erin-Ile",
+        "yoe": 1997,
+        "onwership": "Private",
+        "category": "College of Education",
+        "lat": 8.1026305,
+        "lng": 4.7036919
+    },
+    {
+        "name": "Imam Hamzat College of Education, Ilorin",
+        "yoe": 1994,
+        "onwership": "Private",
+        "category": "College of Education",
+        "lat": 8.5484025,
+        "lng": 4.5077435
+    },
+    {
+        "name": "Kwara State College of Education, Oro",
+        "yoe": 1980,
+        "onwership": "State",
+        "category": "College of Education",
+        "lat": 8.2207359,
+        "lng": 4.8870385
+    },
+    {
+        "name": "Kwara State College of Education (Technical), Lafiagi",
+        "yoe": 1974,
+        "onwership": "State",
+        "category": "College of Education",
+        "lat": 8.8525279,
+        "lng": 5.4044268
+    },
+    {
+        "name": "Kwara State College of Education, Ilorin",
+        "yoe": 1976,
+        "onwership": "State",
+        "category": "College of Education",
+        "lat": 8.4753738,
+        "lng": 4.5274902
+    },
+    {
+        "name": "Nigerian Army School of Education (NASE), Ilorin",
+        "yoe": 2000,
+        "onwership": "Federal",
+        "category": "Vocational Institute",
+        "lat": 8.5613054,
+        "lng": 4.5561414
+    },
+    {
+        "name": "Kwara State University, Malete",
+        "yoe": 2009,
+        "onwership": "State",
+        "category": "University",
+        "lat": 8.7062688,
+        "lng": 4.4621783
+    }
+]
